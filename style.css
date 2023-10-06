@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.step {
+  opacity: 0.1;
+}
+.step.active {
+  opacity: 1;
+}
+.main_title {
+  font-family: 'Rubik Mono One', sans-serif;
+  min-width: 600px;
+  font-size: 30px;
+  text-align: center;
+  border: 0px solid;
+  padding: 24px;
+  border-left-width: 20px;
+}
+.lesson__title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 100px;
+}
+.lesson__item {
+  font-family: 'Rubik Mono One', sans-serif;
+  list-style-type: none;
+  color: #fff;
+  font-size: 25px;
+  line-height: 50px;
+}
+.lesson {
+  width: 85vw;
+  height: 80vh;
+  padding: 50px;
+  background-color: rgb(125, 3, 240);
+  border-radius: 20px;
+}
+
